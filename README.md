@@ -11,3 +11,4 @@ First Cascade classifier is used like Viola Jones algorithm
 <li> Integral image is taken before we add three filters to it first is Linear edge detector, Next is average intensity detector and the third is local edge orientation histogram(EOH) </li>
 <li> And then sobel mask is added to it </li> 
 <li> Finally cascade of classifier is given to SVM for classification purpose </li>
+<p>The final accuracy for this model is 81% which is better than viola jones algorithm. perks of using this algorithm is we don’t want that much big data sets, to make the model learn very few is more than enough </p>
